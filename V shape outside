@@ -1,0 +1,29 @@
+import java.util.*;
+
+class TestClass{
+	public static void main(String[] args) {
+		//int lines=10;
+		for (int i = 0; i <=10; i++) {
+			
+			for (int j1 = 1; j1 <i+1; j1++) {
+				System.out.print(" ");
+			}
+			
+			System.out.print("*");
+			
+			for (int j2 = 10; j2 >i ; j2--) {
+				System.out.print("  ");			
+			}
+			
+			System.out.print("*");
+			
+			for (int j3 = 0; j3 <=i; j3++) {
+				System.out.print(" ");
+			}
+			
+			
+			
+			System.out.print("\n");
+		}
+	}
+}
